@@ -1,12 +1,68 @@
 # Excel Data Cleaner
 
-A Python automation script that cleans and formats Excel data effortlessly. 
+A Python application that automatically cleans and prepares Excel files for analysis.
 
-## Features
-- Removes unnecessary temporary files automatically.
-- Processes data cleanly using Python.
-- Helps streamline data workflows.
+## 📌 Features
 
-## Tech Stack
-- **Language:** Python
-- **Tools:** VS Code, Git, GitHub
+- Remove duplicate rows
+- Handle missing values
+- Format Excel data
+- Save cleaned data to a new Excel file
+- Fast and easy to use
+
+## 🛠 Technologies Used
+
+- Python
+- Pandas
+- OpenPyXL
+
+## 📂 Project Structure
+
+```
+excel-data-cleaner/
+├── main.py
+├── requirements.txt
+├── input.xlsx
+├── output.xlsx
+└── README.md
+```
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ounpathan33-lgtm/excel-data-cleaner.git
+cd excel-data-cleaner
+```
+
+Install the required packages:
+
+```bash
+pip install pandas openpyxl
+```
+
+## ▶️ Usage
+
+Run the application:
+
+```bash
+python main.py
+```
+
+The cleaned Excel file will be saved automatically.
+
+## 📸 Example
+
+Input:
+- Excel file with duplicate rows and missing values
+
+Output:
+- Cleaned Excel file ready for analysis
+
+## 👨‍💻 Author
+
+**Oun Pathan**
+
+- GitHub: https://github.com/ounpathan33-lgtm
+- LinkedIn: https://www.linkedin.com/in/oun-pathan-b99741420
